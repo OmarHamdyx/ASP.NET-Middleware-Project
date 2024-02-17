@@ -6,14 +6,11 @@ The **LoginMiddleware** is an ASP.NET Core middleware designed to handle login r
 - [Usage](#usage)
 - [Middleware Overview](#middleware-overview)
 - [Examples](#examples)
-- [Contributing](#contributing)
-- [License](#license)
-
-
-Usage
+---
+## Usage
 The LoginMiddleware is designed to handle login requests at the root path ("/") using the HTTP POST method. It expects email and password parameters in the request body and validates them against predefined credentials.
-
-Middleware Overview
+---
+## Middleware Overview
 LoginMiddleware
 The core middleware class that handles login requests. It performs the following tasks:
 
@@ -23,8 +20,8 @@ Validates the provided credentials against predefined values.
 Responds with appropriate HTTP status codes and messages.
 MiddlewareExtensions
 Extension methods to add the LoginMiddleware to the ASP.NET Core application's request pipeline.
-
-Examples
+---
+## Examples
 Valid Login Request
 http
 Copy code
@@ -59,11 +56,3 @@ Content-Length: 29
 Login Failed! 400 Bad Request
 Contributing
 Contributions are welcome! Please follow the Contributing Guidelines when submitting issues or pull requests.
-
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-sql
-Copy code
-
-Feel free to copy and paste this block into your README file.
