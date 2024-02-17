@@ -1,33 +1,15 @@
-Login Middleware for ASP.NET Core
-The LoginMiddleware is an ASP.NET Core middleware designed to handle login requests by validating user credentials. It extracts email and password information from the incoming request and checks if they match a predefined set of credentials. The middleware responds with appropriate HTTP status codes and messages based on the validation results.
+# Login Middleware for ASP.NET Core
 
-Table of Contents
-Installation
-Usage
-Middleware Overview
-Examples
-Contributing
-License
-Installation
-To use the LoginMiddleware in your ASP.NET Core project, follow these steps:
+The **LoginMiddleware** is an ASP.NET Core middleware designed to handle login requests by validating user credentials. It extracts email and password information from the incoming request and checks if they match a predefined set of credentials. The middleware responds with appropriate HTTP status codes and messages based on the validation results.
 
-Install the Microsoft.AspNetCore.Http.Abstractions package if not already installed:
+## Table of Contents
+- [Usage](#usage)
+- [Middleware Overview](#middleware-overview)
+- [Examples](#examples)
+- [Contributing](#contributing)
+- [License](#license)
 
-bash
-Copy code
-dotnet add package Microsoft.AspNetCore.Http.Abstractions
-Copy the LoginMiddleware and MiddlewareExtensions classes into your project.
 
-In your Startup.cs file, add the middleware to the HTTP request pipeline:
-
-csharp
-Copy code
-public void Configure(IApplicationBuilder app)
-{
-    // Other configurations...
-
-    app.UseLoginMiddleware();
-}
 Usage
 The LoginMiddleware is designed to handle login requests at the root path ("/") using the HTTP POST method. It expects email and password parameters in the request body and validates them against predefined credentials.
 
@@ -80,3 +62,8 @@ Contributions are welcome! Please follow the Contributing Guidelines when submit
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+sql
+Copy code
+
+Feel free to copy and paste this block into your README file.
