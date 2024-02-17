@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kkW6DVmP5oidjHtpsA+p1e08Td876SQ6Xq/RC1EgbUmMT7zATRqlfd3kRk8XBqcigNtMOA/gwQ2cr7NmNI3gaQ==",
+  "dgSpecHash": "E5xvm0di6p+62nb/zcmeAqilgJaPYDEIwHeq+Z/7XySGpPL2rglqNOTt40qqLot5GZp96S+G+BP3wQRwqyJpDA==",
   "success": true,
-  "projectFilePath": "O:\\Repositories\\MiddleWareExample\\MiddleWareProject.csproj",
+  "projectFilePath": "O:\\Repositories\\ASP.NET-MiddleWare-Project\\MiddlewareProject.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

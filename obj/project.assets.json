@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "O:\\Repositories\\MiddleWareExample\\MiddleWareProject.csproj",
+      "projectUniqueName": "O:\\Repositories\\ASP.NET-MiddleWare-Project\\MiddleWareProject.csproj",
       "projectName": "MiddleWareProject",
-      "projectPath": "O:\\Repositories\\MiddleWareExample\\MiddleWareProject.csproj",
+      "projectPath": "O:\\Repositories\\ASP.NET-MiddleWare-Project\\MiddleWareProject.csproj",
       "packagesPath": "C:\\Users\\ZOLTA\\.nuget\\packages\\",
-      "outputPath": "O:\\Repositories\\MiddleWareExample\\obj\\",
+      "outputPath": "O:\\Repositories\\ASP.NET-MiddleWare-Project\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ZOLTA\\AppData\\Roaming\\NuGet\\NuGet.Config",
