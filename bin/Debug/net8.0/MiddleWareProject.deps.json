@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v8.0": {
-      "MiddleWareProject/1.0.0": {
+      "MiddlewareProject/1.0.0": {
         "runtime": {
-          "MiddleWareProject.dll": {}
+          "MiddlewareProject.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "MiddleWareProject/1.0.0": {
+    "MiddlewareProject/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
